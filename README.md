@@ -5,11 +5,6 @@ Setup
 ---
 
 ```groovy
-repositories {
-    maven {
-        url 'https://dl.bintray.com/smasoumi/maven/'
-    }
-}
 dependencies {
     //....
     compile 'io.saeid:oghat:1.0.0'
