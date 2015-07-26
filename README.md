@@ -23,7 +23,7 @@ Usage
 PrayerTime pt = PrayerTime.getInstance()
 .setDate(year, month, dayOfMonth) // in gregorian
 .setLatLong(cityLatitude, cityLongitude)
-.setTimeZone(4.5f)
+.setTimeZone(cityTimeZone)
 .setCalculationType(...) // Optional - use CalculationType class (default is Institute of Geophysics, University of TEHRAN) 
 .setJuristicType(...) // Optional - JuristicType class (default is Shafii)
 .calculate();
